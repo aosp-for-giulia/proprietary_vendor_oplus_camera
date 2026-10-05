@@ -1,16 +1,16 @@
-From cfd279227314dc8ccb9b68b4232b2ba5c45dff59 Mon Sep 17 00:00:00 2001
+From e887dd373bcd2751583fa1a265751fbd0c9d49ae Mon Sep 17 00:00:00 2001
 From: Hecheng Yu <kde-yyds@qq.com>
 Date: Sun, 9 Aug 2026 20:12:48 -0600
 Subject: [PATCH 1/2] Use default font instead of OPlus specific ones
 
 ---
- smali/t7/q3.smali | 293 +---------------------------------------------
+ smali/t7/n3.smali | 293 +---------------------------------------------
  1 file changed, 3 insertions(+), 290 deletions(-)
 
-diff --git a/smali/t7/q3.smali b/smali/t7/q3.smali
-index c666e532..59746b3a 100644
---- a/smali/t7/q3.smali
-+++ b/smali/t7/q3.smali
+diff --git a/smali/t7/n3.smali b/smali/t7/n3.smali
+index d4976cdf..9060a77f 100644
+--- a/smali/t7/n3.smali
++++ b/smali/t7/n3.smali
 @@ -263,300 +263,13 @@
  .end method
  
@@ -19,7 +19,7 @@ index c666e532..59746b3a 100644
 +    .locals 1
  
      .line 1
--    sget-object v0, Lt7/k0;->a:Landroid/graphics/Typeface;
+-    sget-object v0, Lt7/j0;->a:Landroid/graphics/Typeface;
 +    sget-object v0, Landroid/graphics/Typeface;->DEFAULT:Landroid/graphics/Typeface;
  
      .line 2
@@ -121,7 +121,7 @@ index c666e532..59746b3a 100644
 -    .line 48
 -    .line 49
 -    :try_start_1
--    sget-boolean v3, Lt7/q3;->q:Z
+-    sget-boolean v3, Lt7/n3;->q:Z
 -
 -    .line 50
 -    .line 51
@@ -202,7 +202,7 @@ index c666e532..59746b3a 100644
 -
 -    .line 87
 -    :cond_0
--    sget-boolean p0, Lt7/q3;->q:Z
+-    sget-boolean p0, Lt7/n3;->q:Z
 -
 -    .line 88
 -    .line 89
@@ -301,12 +301,12 @@ index c666e532..59746b3a 100644
 -    .line 132
 -    :cond_1
 -    :goto_2
--    sput-object v2, Lt7/k0;->a:Landroid/graphics/Typeface;
+-    sput-object v2, Lt7/j0;->a:Landroid/graphics/Typeface;
 -
 -    .line 133
 -    .line 134
 -    :cond_2
--    sget-object p0, Lt7/k0;->a:Landroid/graphics/Typeface;
+-    sget-object p0, Lt7/j0;->a:Landroid/graphics/Typeface;
 -
 -    .line 135
 -    .line 136

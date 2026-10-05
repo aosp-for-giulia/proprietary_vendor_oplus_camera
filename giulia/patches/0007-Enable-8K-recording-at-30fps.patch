@@ -27,7 +27,7 @@ index 8158800b..fe72ecad 100644
      sget-object v0, Lcom/oplus/camera/configure/CameraConfig;->d:Ljava/util/concurrent/ConcurrentHashMap;
  
 diff --git a/smali_classes12/com/oplus/camera/module/a.smali b/smali_classes12/com/oplus/camera/module/a.smali
-index 587ea0c1..aa8fb3ee 100644
+index 2b9bc3b5..534a7158 100644
 --- a/smali_classes12/com/oplus/camera/module/a.smali
 +++ b/smali_classes12/com/oplus/camera/module/a.smali
 @@ -226,8 +226,26 @@
@@ -83,7 +83,7 @@ index 587ea0c1..aa8fb3ee 100644
      .line 1
      const-string v0, "pref_screen_mode_fixed_video_frame_key"
  
-@@ -31592,6 +31628,28 @@
+@@ -31576,6 +31612,28 @@
  .method public final ri()Ljava/lang/Double;
      .locals 2
  

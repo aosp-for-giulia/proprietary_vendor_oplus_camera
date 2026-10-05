@@ -50,7 +50,7 @@ index 7b1f806b..edeaddd2 100644
      const-string v0, "com.oplus.feature.video.720p.60fps.support"
  
 diff --git a/smali_classes12/com/oplus/camera/module/a.smali b/smali_classes12/com/oplus/camera/module/a.smali
-index aa8fb3ee..27b109cc 100644
+index 534a7158..6db556c8 100644
 --- a/smali_classes12/com/oplus/camera/module/a.smali
 +++ b/smali_classes12/com/oplus/camera/module/a.smali
 @@ -12202,6 +12202,30 @@
@@ -84,7 +84,7 @@ index aa8fb3ee..27b109cc 100644
      .line 1
      const-string v0, "pref_screen_mode_fixed_video_frame_key"
  
-@@ -31650,6 +31674,36 @@
+@@ -31634,6 +31658,36 @@
      return-object p0
  
      :cond_giulia_8k_ri_done
