@@ -1,4 +1,4 @@
-From 24341192731d5c8393df3dd1f79724040c34af0d Mon Sep 17 00:00:00 2001
+From 69c06ad08b2a6c2c50fd1b72d3979fef4850b08c Mon Sep 17 00:00:00 2001
 From: Hecheng Yu <kde-yyds@qq.com>
 Date: Tue, 8 Sep 2026 23:54:20 -0600
 Subject: [PATCH 2/2] manifest: Get rid of oplus permissions
@@ -8,7 +8,7 @@ Subject: [PATCH 2/2] manifest: Get rid of oplus permissions
  1 file changed, 33 insertions(+), 33 deletions(-)
 
 diff --git a/AndroidManifest.xml b/AndroidManifest.xml
-index 38bf1972..4c4962ff 100644
+index d891382c..9f029ea1 100644
 --- a/AndroidManifest.xml
 +++ b/AndroidManifest.xml
 @@ -261,7 +261,7 @@
