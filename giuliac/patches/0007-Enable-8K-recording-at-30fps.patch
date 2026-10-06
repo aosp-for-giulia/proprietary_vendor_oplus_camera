@@ -230,9 +230,9 @@ index 8a0c0b21..e687bead 100644
 +    const/16 v4, 0x1e
 +
 +    :cond_giuliac_8k_cond5_skip
-+    const-string v10, "video_24fps"
++    const/4 v10, 0x1
 +
-+    const-string v12, "video_120fps"
++    const-string v12, "video_60fps"
 +
      .line 225
      if-ne v8, v4, :cond_6
