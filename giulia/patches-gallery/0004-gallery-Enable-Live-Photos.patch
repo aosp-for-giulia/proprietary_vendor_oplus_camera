@@ -7,10 +7,10 @@ Subject: [PATCH 4/4] gallery: Enable Live Photos
  smali/com/oplus/aiunit/vision/f4a.smali | 85 ++++++++++++++++++++++++-
  1 file changed, 84 insertions(+), 1 deletion(-)
 
-diff --git a/smali/com/oplus/aiunit/vision/f4a.smali b/smali/com/oplus/aiunit/vision/f4a.smali
+diff --git a/smali/com/oplus/aiunit/vision/u9a.smali b/smali/com/oplus/aiunit/vision/u9a.smali
 index fd489c08a..9ece32a32 100644
---- a/smali/com/oplus/aiunit/vision/f4a.smali
-+++ b/smali/com/oplus/aiunit/vision/f4a.smali
+--- a/smali/com/oplus/aiunit/vision/u9a.smali
++++ b/smali/com/oplus/aiunit/vision/u9a.smali
 @@ -193,10 +193,13 @@
  .end method
  
